@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Data, checkpoints and outputs (download/generate locally; see README)
+data/*
+!data/.gitkeep
+checkpoints/*
+!checkpoints/.gitkeep
+experiments/sac_rl/data/
+experiments/sac_rl/tensorboard_logs/
+*.pkl
+*.npz
+*.npy
+*.pt
+
+# Environments / editors
+.venv/
+venv/
+.env
+.vscode/
+.idea/
+
+# Figure-generation cache
+assets/_cache/
